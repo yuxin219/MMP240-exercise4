@@ -1,11 +1,14 @@
 <!doctype>
 <html>
-    <head>
-
-        <style>
+    
+        <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
             #mbth{display:none;}
             #logo{padding:5px 10px;}
-            #logo a{text-decoration: none;color:#2a9d8f}
+            #logo a{text-decoration: none;color:#2a9d8f; font-family: 'Bangers', cursive;}
             header{position: relative;background:#e9c46a;}
             nav{position:absolute;top:10px;right:10px;}
             nav li{display:inline-block;vertical-align: top;}
@@ -14,24 +17,51 @@
                   padding:10px;
                   display: block;
                   color:#e76f51;
-                font-weight:bold;}
-            
-        </style>
-        <title>exercise4</title>
+                font-weight:bold;font-family: 'Bangers', cursive;}
+           
+            @keyframes example {
+  0%   {background-color: white;color:lightgoldenrodyellow;}
+100% {background-color: lightgoldenrodyellow;color:#e76f51;}}
+
+    .blocktext{animation-name: example; animation-duration:3s;
+                text-align: center; 
+                color:#e76f51; 
+                font-size:20px;
+                line-height: 30px;
+                max-width: 700px;
+                margin-left: auto;
+                margin-right: auto; 
+                background-color: lightgoldenrodyellow;}
+    
+    #icons{text-align: center;font-size: 20px; color:#2a9d8f;word-spacing: 20px}
+    
+  
+        
+    
+            </style>
+    <title>exercise4</title>
     </head>
     <body>
         <header>
             <div id="logo">
-                <h1><a href="exercise4.html">EX4</a></h1></div>
-                
-            <button id="mbth">&#9776;</button>
+                <h1><a href="exercise4.html">EX5</a></h1></div>
                 <nav>
-                    <ul><li><a href="exercise4.html">Home</a></li>
-                        <li><a href="exercise4.html">About</a></li>
+                    <ul><li><a href="exercise4.html">Home /</a></li>
+                        <li><a href="exercise4.html">About /</a></li>
                         <li><a href="exercise4.html">Contact</a></li>
                     </ul>
             </nav>
-            
-        </header>
+            </header>
+        <h2 style="text-align: center; color:#2a9d8f; font-family: 'Bangers', cursive;">What is Lorem Ipsum?</h2>
+        
+            <p class="blocktext" >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        
+        <ul id="icons"><i class="fa fa-internet-explorer"></i>
+        <i class="fa fa-facebook-square"></i>
+        <i class="fa fa-firefox"></i>
+        </ul>
+
+        
+        
     </body>
 </html>
